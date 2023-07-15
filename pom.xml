@@ -49,20 +49,20 @@
 	</distributionManagement>
 	<build>
 		<plugins>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-compiler-plugin</artifactId>
-				<version>3.8.0</version>
-				<configuration>
-<!--					<release>11</release>-->
-					<source>11</source>
-					<target>11</target>
-					<testSource>11</testSource>
-					<testTarget>11</testTarget>
-					<showDeprecation>true</showDeprecation>
-					<compilerArgument>-Xlint:unchecked</compilerArgument>
-				</configuration>
-			</plugin>
+<!--			<plugin>-->
+<!--				<groupId>org.apache.maven.plugins</groupId>-->
+<!--				<artifactId>maven-compiler-plugin</artifactId>-->
+<!--				<version>3.8.0</version>-->
+<!--				<configuration>-->
+<!--&lt;!&ndash;					<release>11</release>&ndash;&gt;-->
+<!--					<source>11</source>-->
+<!--					<target>11</target>-->
+<!--					<testSource>11</testSource>-->
+<!--					<testTarget>11</testTarget>-->
+<!--					<showDeprecation>true</showDeprecation>-->
+<!--					<compilerArgument>-Xlint:unchecked</compilerArgument>-->
+<!--				</configuration>-->
+<!--			</plugin>-->
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-surefire-plugin</artifactId>
