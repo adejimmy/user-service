@@ -1,13 +1,12 @@
 version: 0.2
 
 phases:
+  install:
+    runtime-versions:
+      java: corretto11
   build:
     commands:
       - echo Entered the build phase...
-      - java -version
-      - yum -y install java-11
-      - update-alternatives --auto javac
-      - update-alternatives --auto java
       - java -version
       - mvn clean package
   post_build:
