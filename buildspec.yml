@@ -3,7 +3,7 @@ version: 0.2
 phases:
   build:
     commands:
-      - echo Entered the build phase...
+      - echo Entered the build phase..
       - java -version
       - yum -y install java-11
       - update-alternatives --auto javac
