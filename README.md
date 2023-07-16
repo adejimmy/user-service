@@ -20,10 +20,11 @@ Open a terminal, navigate into the project directory(cd my_project/), and run th
 Tested On Windows
 Java 8.1.13
 Intellij IDEA 2022.1 Ultimate Edition
+AWS
 
-The application flow os a s follows
+The application flow os as follows
 
 1) A gitub repository is created to post the application
 2) We need to build the code using AWS codebuild but the code build does not know what to do as per steps to take
-so a build.yml file(which explains steps and things to install) is created to help the code build what steps and install to make
-3) The code build will build and deploy in the elastic bean stalk, this process is called code pipeline which works like Jenkins
+so a build.yml file(which explains steps and things to install) is created to help the codebuild to understand the steps and what to install
+3) The code build will build and deploy to the elastic bean stalk, this process is called codepipeline which works like Jenkins
