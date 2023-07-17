@@ -10,7 +10,7 @@ You will need to have JAVA, Spring Boot on your computer.
 
 Open a terminal, navigate into the project directory(cd my_project/), and run the following commands:
 
-1)Mvn Install:
+1) Mvn Install:
 
 2) Edit your run configuration using maven configuration (clean compile spring-boot:run)
 
@@ -18,7 +18,7 @@ Open a terminal, navigate into the project directory(cd my_project/), and run th
 
 
 Tested On Windows
-Java 8.1.13
+Java 8
 Intellij IDEA 2022.1 Ultimate Edition
 AWS
 
